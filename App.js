@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 24,
+    fontFamily: "MonospaceBold",
     fontWeight: '600',
     color: Colors.black,
   },
