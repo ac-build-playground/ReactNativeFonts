@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactNativeFontsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeFontsTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -21,6 +20,7 @@
 		8A5860828D561FD80FECF66C /* libPods-ReactNativeFonts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F3749ABA0F65927C8923E6 /* libPods-ReactNativeFonts.a */; };
 		D43BA8610869BFAEBFA4108D /* libPods-ReactNativeFontsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0548D38956835FEEDB1082 /* libPods-ReactNativeFontsTests.a */; };
 		FAD4347CF54F027ACAC1FA63 /* libPods-ReactNativeFonts-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C31E80E9E38E61516AA378 /* libPods-ReactNativeFonts-tvOSTests.a */; };
+		693CB70DAFD04762BA2FAB89 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 656A36515E1C451CA96BF234 /* NotoSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +69,7 @@
 		E1423853991C576AE8E26E84 /* Pods-ReactNativeFontsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeFontsTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeFontsTests/Pods-ReactNativeFontsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		656A36515E1C451CA96BF234 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; name = "NotoSans-Bold.ttf"; path = "../assets/fonts/NotoSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				B753D93AA48C4B15B175E02B /* MonospaceBold.ttf */,
+				656A36515E1C451CA96BF234 /* NotoSans-Bold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -355,6 +357,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				4FA96F07B6E1485292E0505C /* MonospaceBold.ttf in Resources */,
+				693CB70DAFD04762BA2FAB89 /* NotoSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
