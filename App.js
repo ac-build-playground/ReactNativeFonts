@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 24,
-    // fontFamily: "NotoSans-Bold",
+    fontFamily: "NotoSans-Bold",
     fontWeight: '600',
     color: Colors.black,
   },

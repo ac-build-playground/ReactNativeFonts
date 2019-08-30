@@ -1,0 +1,1 @@
+./node_modules/.bin/react-native link
